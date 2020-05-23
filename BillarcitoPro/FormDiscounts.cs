@@ -111,5 +111,7 @@ namespace BillarcitoPro
 			labelError.Text = "Error. Por favor, seleccione por completo un registro de la tabla.";
 			labelError.Visible = true;
 		}
-	}
+
+
+    }
 }
