@@ -51,12 +51,14 @@ namespace BillarcitoPro
             this.Asuna = new System.Windows.Forms.PictureBox();
             this.bocchi = new System.Windows.Forms.PictureBox();
             this.rem = new System.Windows.Forms.PictureBox();
+            this.yui = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bocchi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yui)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -177,6 +179,17 @@ namespace BillarcitoPro
             this.rem.TabIndex = 18;
             this.rem.TabStop = false;
             // 
+            // yui
+            // 
+            this.yui.BackColor = System.Drawing.Color.Transparent;
+            this.yui.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("yui.BackgroundImage")));
+            this.yui.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.yui.Location = new System.Drawing.Point(332, 45);
+            this.yui.Name = "yui";
+            this.yui.Size = new System.Drawing.Size(146, 159);
+            this.yui.TabIndex = 19;
+            this.yui.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -186,6 +199,7 @@ namespace BillarcitoPro
             this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.yui);
             this.Controls.Add(this.rem);
             this.Controls.Add(this.bocchi);
             this.Controls.Add(this.Asuna);
@@ -205,6 +219,7 @@ namespace BillarcitoPro
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bocchi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yui)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -215,5 +230,6 @@ namespace BillarcitoPro
         private System.Windows.Forms.PictureBox Asuna;
         private System.Windows.Forms.PictureBox bocchi;
         private System.Windows.Forms.PictureBox rem;
+        private System.Windows.Forms.PictureBox yui;
     }
 }
