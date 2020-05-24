@@ -1,12 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: ivana
- * Date: 20/11/2019
- * Time: 06:36 p. m.
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
 using System.Windows.Forms;

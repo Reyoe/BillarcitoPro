@@ -1,9 +1,4 @@
-﻿/*
- Time: 04:12 p. m.
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Data;
 using System.Linq;
 using MySql.Data.MySqlClient;
