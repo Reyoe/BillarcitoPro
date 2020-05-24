@@ -36,6 +36,7 @@ namespace BillarcitoPro
 				kuro.Visible = false;
 				violet.Visible = true;
 				Asuna.Visible= false;
+				bocchi.Visible = false;
 			}
 			if (index == 4)
 			{
@@ -44,6 +45,7 @@ namespace BillarcitoPro
 				violet.Visible = false;
 				Asuna.Visible = true;
 				bocchi.Visible = false;
+				rem.Visible = false;
 			}
 			if (index == 5)
 			{
@@ -52,6 +54,16 @@ namespace BillarcitoPro
 				violet.Visible = false;
 				Asuna.Visible = false;
 				bocchi.Visible = true;
+				rem.Visible = false;
+			}
+			if (index == 6)
+			{
+				aqua.Visible = false;
+				kuro.Visible = false;
+				violet.Visible = false;
+				Asuna.Visible = false;
+				bocchi.Visible = false;
+				rem.Visible = true;
 			}
 		}
 		void ButtonAcceptClick(object sender, EventArgs e)
