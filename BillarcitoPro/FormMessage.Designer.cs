@@ -47,8 +47,10 @@ namespace BillarcitoPro
             this.buttonAccept = new System.Windows.Forms.Button();
             this.aqua = new System.Windows.Forms.PictureBox();
             this.kuro = new System.Windows.Forms.PictureBox();
+            this.violet = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -125,17 +127,29 @@ namespace BillarcitoPro
             this.kuro.TabIndex = 14;
             this.kuro.TabStop = false;
             // 
+            // violet
+            // 
+            this.violet.BackColor = System.Drawing.Color.Transparent;
+            this.violet.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("violet.BackgroundImage")));
+            this.violet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.violet.Location = new System.Drawing.Point(276, 12);
+            this.violet.Name = "violet";
+            this.violet.Size = new System.Drawing.Size(207, 221);
+            this.violet.TabIndex = 15;
+            this.violet.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
+            this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.violet);
             this.Controls.Add(this.kuro);
-            this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.aqua);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMessage";
@@ -144,11 +158,13 @@ namespace BillarcitoPro
             this.Text = "FormMessage";
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.violet)).EndInit();
             this.ResumeLayout(false);
 
 		}
 
         private System.Windows.Forms.PictureBox aqua;
         private System.Windows.Forms.PictureBox kuro;
+        private System.Windows.Forms.PictureBox violet;
     }
 }
