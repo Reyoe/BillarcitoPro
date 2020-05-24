@@ -21,18 +21,28 @@ namespace BillarcitoPro
 				aqua.Visible = true;
 				kuro.Visible = false;
 				violet.Visible = false;
-            }
+				Asuna.Visible = false;
+			}
 			if (index == 2)
 			{
 				aqua.Visible = false;
 				kuro.Visible = true;
 				violet.Visible = false;
+				Asuna.Visible = false;
 			}
 			if (index == 3)
 			{
 				aqua.Visible = false;
 				kuro.Visible = false;
 				violet.Visible = true;
+				Asuna.Visible= false;
+			}
+			if (index == 3)
+			{
+				aqua.Visible = false;
+				kuro.Visible = false;
+				violet.Visible = false;
+				Asuna.Visible = true;
 			}
 		}
 		void ButtonAcceptClick(object sender, EventArgs e)
