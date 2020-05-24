@@ -131,11 +131,11 @@ namespace BillarcitoPro
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
+            this.Controls.Add(this.labelTittle);
+            this.Controls.Add(this.buttonAccept);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.kuro);
             this.Controls.Add(this.panelTittle);
-            this.Controls.Add(this.buttonAccept);
-            this.Controls.Add(this.labelTittle);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.aqua);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMessage";
