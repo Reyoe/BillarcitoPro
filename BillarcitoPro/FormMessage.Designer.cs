@@ -49,12 +49,12 @@ namespace BillarcitoPro
             this.kuro = new System.Windows.Forms.PictureBox();
             this.violet = new System.Windows.Forms.PictureBox();
             this.Asuna = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bocchi = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bocchi)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -153,16 +153,16 @@ namespace BillarcitoPro
             this.Asuna.TabIndex = 16;
             this.Asuna.TabStop = false;
             // 
-            // pictureBox1
+            // bocchi
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(332, 31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 201);
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
+            this.bocchi.BackColor = System.Drawing.Color.Transparent;
+            this.bocchi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bocchi.BackgroundImage")));
+            this.bocchi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bocchi.Location = new System.Drawing.Point(332, 31);
+            this.bocchi.Name = "bocchi";
+            this.bocchi.Size = new System.Drawing.Size(150, 201);
+            this.bocchi.TabIndex = 17;
+            this.bocchi.TabStop = false;
             // 
             // FormMessage
             // 
@@ -172,7 +172,7 @@ namespace BillarcitoPro
             this.ClientSize = new System.Drawing.Size(483, 236);
             this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.bocchi);
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.Asuna);
             this.Controls.Add(this.panelTittle);
@@ -189,7 +189,7 @@ namespace BillarcitoPro
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bocchi)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -198,6 +198,6 @@ namespace BillarcitoPro
         private System.Windows.Forms.PictureBox kuro;
         private System.Windows.Forms.PictureBox violet;
         private System.Windows.Forms.PictureBox Asuna;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox bocchi;
     }
 }
