@@ -44,6 +44,8 @@ namespace BillarcitoPro
             this.labelTittle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAccept = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -52,7 +54,7 @@ namespace BillarcitoPro
             this.panelTittle.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTittle.Location = new System.Drawing.Point(0, 0);
             this.panelTittle.Name = "panelTittle";
-            this.panelTittle.Size = new System.Drawing.Size(426, 25);
+            this.panelTittle.Size = new System.Drawing.Size(483, 25);
             this.panelTittle.TabIndex = 3;
             // 
             // labelTittle
@@ -95,12 +97,21 @@ namespace BillarcitoPro
             this.buttonAccept.UseVisualStyleBackColor = false;
             this.buttonAccept.Click += new System.EventHandler(this.ButtonAcceptClick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(329, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(142, 133);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(426, 200);
+            this.ClientSize = new System.Drawing.Size(483, 236);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelTittle);
@@ -110,8 +121,11 @@ namespace BillarcitoPro
             this.Opacity = 0.85D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMessage";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
 		}
-	}
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+    }
 }
