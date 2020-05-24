@@ -302,5 +302,10 @@ namespace BillarcitoPro
 			indexTables = 0;
 			TablesFormLoad(new object(), new EventArgs());
 		}
-	}
+
+        private void textBoxClient_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
