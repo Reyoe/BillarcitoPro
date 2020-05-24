@@ -55,8 +55,10 @@ namespace BillarcitoPro
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTittle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.buttonClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -167,12 +169,22 @@ namespace BillarcitoPro
             this.label2.TabIndex = 12;
             this.label2.Text = "_____________________________________________________";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(366, 63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(116, 111);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormLoginEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(482, 270);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -189,9 +201,12 @@ namespace BillarcitoPro
             this.Text = "FormLoginEmployee";
             this.panelTittle.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.buttonClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
 		}
-	}
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+    }
 }
