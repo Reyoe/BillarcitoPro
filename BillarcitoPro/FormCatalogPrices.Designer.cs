@@ -185,6 +185,7 @@ namespace BillarcitoPro
             this.dataGridViewCatalogPrices.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewCatalogPrices.Size = new System.Drawing.Size(560, 390);
             this.dataGridViewCatalogPrices.TabIndex = 5;
+            this.dataGridViewCatalogPrices.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCatalogPrices_CellContentClick);
             // 
             // FormCatalogPrices
             // 

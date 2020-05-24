@@ -147,6 +147,7 @@ namespace BillarcitoPro
             this.pictureBoxNotAvailable.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxNotAvailable.TabIndex = 1;
             this.pictureBoxNotAvailable.TabStop = false;
+            this.pictureBoxNotAvailable.Click += new System.EventHandler(this.pictureBoxNotAvailable_Click);
             // 
             // label2
             // 

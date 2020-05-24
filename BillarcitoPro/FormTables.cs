@@ -299,5 +299,10 @@ namespace BillarcitoPro
         {
 
         }
-    }
+
+		private void pictureBoxNotAvailable_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
