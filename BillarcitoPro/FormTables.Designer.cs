@@ -585,7 +585,7 @@ namespace BillarcitoPro
             // buttonLeftTables
             // 
             this.buttonLeftTables.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonLeftTables.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.buttonLeftTables.BackColor = System.Drawing.Color.Transparent;
             this.buttonLeftTables.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonLeftTables.BackgroundImage")));
             this.buttonLeftTables.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonLeftTables.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -605,7 +605,7 @@ namespace BillarcitoPro
             // button2RightTables
             // 
             this.button2RightTables.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2RightTables.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.button2RightTables.BackColor = System.Drawing.Color.Transparent;
             this.button2RightTables.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2RightTables.BackgroundImage")));
             this.button2RightTables.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2RightTables.Cursor = System.Windows.Forms.Cursors.Hand;

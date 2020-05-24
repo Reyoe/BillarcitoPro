@@ -147,6 +147,11 @@
     <Compile Include="FormTables.Designer.cs">
       <DependentUpon>FormTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +196,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTablesAdmin.resx">
       <DependentUpon>FormTablesAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
