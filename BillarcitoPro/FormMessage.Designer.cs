@@ -40,6 +40,7 @@ namespace BillarcitoPro
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMessage));
             this.panelTittle = new System.Windows.Forms.Panel();
             this.labelTittle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -99,11 +100,15 @@ namespace BillarcitoPro
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(329, 54);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(248, -12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(142, 133);
+            this.pictureBox1.Size = new System.Drawing.Size(276, 273);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FormMessage
             // 
