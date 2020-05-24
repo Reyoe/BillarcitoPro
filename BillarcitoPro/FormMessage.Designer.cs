@@ -48,9 +48,11 @@ namespace BillarcitoPro
             this.aqua = new System.Windows.Forms.PictureBox();
             this.kuro = new System.Windows.Forms.PictureBox();
             this.violet = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -138,16 +140,28 @@ namespace BillarcitoPro
             this.violet.TabIndex = 15;
             this.violet.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(303, 45);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(179, 164);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
-            this.Controls.Add(this.panelTittle);
-            this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.buttonAccept);
+            this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.violet);
             this.Controls.Add(this.kuro);
             this.Controls.Add(this.aqua);
@@ -159,6 +173,7 @@ namespace BillarcitoPro
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -166,5 +181,6 @@ namespace BillarcitoPro
         private System.Windows.Forms.PictureBox aqua;
         private System.Windows.Forms.PictureBox kuro;
         private System.Windows.Forms.PictureBox violet;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
