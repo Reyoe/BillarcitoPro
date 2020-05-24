@@ -103,6 +103,10 @@ namespace BillarcitoPro
 		{
 			textBoxUser.Text = user;
 		}
-		
+
+		private void labelError_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

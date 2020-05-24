@@ -173,5 +173,10 @@ namespace BillarcitoPro
 		{
 			dataGridViewProducts.DataSource = database.Show("productos");
 		}
+
+		private void dataGridViewProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
 	}
 }

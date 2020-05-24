@@ -80,5 +80,9 @@ namespace BillarcitoPro
 			ShowProducts();
 		}
 
-    }
+		private void dataGridViewCatalogPrices_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
+	}
 }

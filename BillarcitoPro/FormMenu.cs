@@ -168,5 +168,10 @@ namespace BillarcitoPro
 				}
 			}
 		}
+
+		private void panelContainer_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
 	}
 }

@@ -82,5 +82,10 @@ namespace BillarcitoPro
 			labelError.Text = "Error. Por favor, seleccione por completo un registro.";
 			labelError.Visible = true;
 		}
+
+		private void dataGridViewSales_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
 	}
 }
