@@ -16,6 +16,16 @@ namespace BillarcitoPro
 			InitializeComponent();
 			tittle = "Limite en la Mesa " + index.ToString();
 			labelTittle.Text = tittle;
+            if (index == 1)
+            {
+				aqua.Visible = true;
+				kuro.Visible = false;
+            }
+			if (index == 2)
+			{
+				aqua.Visible = false;
+				kuro.Visible = true;
+			}
 		}
 		void ButtonAcceptClick(object sender, EventArgs e)
 		{
