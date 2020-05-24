@@ -45,8 +45,10 @@ namespace BillarcitoPro
             this.labelTittle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAccept = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.aqua = new System.Windows.Forms.PictureBox();
+            this.kuro = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -100,17 +102,28 @@ namespace BillarcitoPro
             this.buttonAccept.UseVisualStyleBackColor = false;
             this.buttonAccept.Click += new System.EventHandler(this.ButtonAcceptClick);
             // 
-            // pictureBox1
+            // aqua
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(276, -12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(248, 273);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.aqua.BackColor = System.Drawing.Color.Transparent;
+            this.aqua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aqua.BackgroundImage")));
+            this.aqua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.aqua.Location = new System.Drawing.Point(276, -12);
+            this.aqua.Name = "aqua";
+            this.aqua.Size = new System.Drawing.Size(248, 273);
+            this.aqua.TabIndex = 13;
+            this.aqua.TabStop = false;
+            this.aqua.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // kuro
+            // 
+            this.kuro.BackColor = System.Drawing.Color.Transparent;
+            this.kuro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("kuro.BackgroundImage")));
+            this.kuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.kuro.Location = new System.Drawing.Point(276, 31);
+            this.kuro.Name = "kuro";
+            this.kuro.Size = new System.Drawing.Size(207, 193);
+            this.kuro.TabIndex = 14;
+            this.kuro.TabStop = false;
             // 
             // FormMessage
             // 
@@ -118,21 +131,24 @@ namespace BillarcitoPro
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
+            this.Controls.Add(this.kuro);
             this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.aqua);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMessage";
             this.Opacity = 0.85D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMessage";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aqua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kuro)).EndInit();
             this.ResumeLayout(false);
 
 		}
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox aqua;
+        private System.Windows.Forms.PictureBox kuro;
     }
 }
