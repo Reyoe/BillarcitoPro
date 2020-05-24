@@ -23536,7 +23536,7 @@
         +P9p+5M/+b9G9s2IVNwQMwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bocchi.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAV4AAADFCAYAAAAc/ZouAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAA/7JJREFUeF7U/XWQHcm65QtWlRiSmZmZM8XMzMycTEpmMbMKTjFLKlGVWErOlFS3

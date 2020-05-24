@@ -49,10 +49,12 @@ namespace BillarcitoPro
             this.kuro = new System.Windows.Forms.PictureBox();
             this.violet = new System.Windows.Forms.PictureBox();
             this.Asuna = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -151,15 +153,27 @@ namespace BillarcitoPro
             this.Asuna.TabIndex = 16;
             this.Asuna.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(332, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 201);
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
-            this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.Asuna);
             this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.violet);
@@ -170,10 +184,12 @@ namespace BillarcitoPro
             this.Opacity = 0.85D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMessage";
+            this.Load += new System.EventHandler(this.FormMessage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -182,5 +198,6 @@ namespace BillarcitoPro
         private System.Windows.Forms.PictureBox kuro;
         private System.Windows.Forms.PictureBox violet;
         private System.Windows.Forms.PictureBox Asuna;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

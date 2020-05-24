@@ -59,5 +59,10 @@ namespace BillarcitoPro
 		{
 
 		}
+
+		private void FormMessage_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
