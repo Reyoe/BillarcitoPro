@@ -50,11 +50,13 @@ namespace BillarcitoPro
             this.violet = new System.Windows.Forms.PictureBox();
             this.Asuna = new System.Windows.Forms.PictureBox();
             this.bocchi = new System.Windows.Forms.PictureBox();
+            this.rem = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bocchi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rem)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -99,7 +101,7 @@ namespace BillarcitoPro
             this.buttonAccept.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonAccept.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAccept.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAccept.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonAccept.ForeColor = System.Drawing.Color.Transparent;
             this.buttonAccept.Location = new System.Drawing.Point(136, 145);
             this.buttonAccept.Name = "buttonAccept";
             this.buttonAccept.Size = new System.Drawing.Size(150, 31);
@@ -164,6 +166,17 @@ namespace BillarcitoPro
             this.bocchi.TabIndex = 17;
             this.bocchi.TabStop = false;
             // 
+            // rem
+            // 
+            this.rem.BackColor = System.Drawing.Color.Transparent;
+            this.rem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rem.BackgroundImage")));
+            this.rem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.rem.Location = new System.Drawing.Point(292, 32);
+            this.rem.Name = "rem";
+            this.rem.Size = new System.Drawing.Size(188, 192);
+            this.rem.TabIndex = 18;
+            this.rem.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -171,9 +184,10 @@ namespace BillarcitoPro
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
             this.Controls.Add(this.labelTittle);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.bocchi);
             this.Controls.Add(this.buttonAccept);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.rem);
+            this.Controls.Add(this.bocchi);
             this.Controls.Add(this.Asuna);
             this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.violet);
@@ -190,6 +204,7 @@ namespace BillarcitoPro
             ((System.ComponentModel.ISupportInitialize)(this.violet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Asuna)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bocchi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rem)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -199,5 +214,6 @@ namespace BillarcitoPro
         private System.Windows.Forms.PictureBox violet;
         private System.Windows.Forms.PictureBox Asuna;
         private System.Windows.Forms.PictureBox bocchi;
+        private System.Windows.Forms.PictureBox rem;
     }
 }
