@@ -52,6 +52,7 @@ namespace BillarcitoPro
             this.bocchi = new System.Windows.Forms.PictureBox();
             this.rem = new System.Windows.Forms.PictureBox();
             this.yui = new System.Windows.Forms.PictureBox();
+            this.taiga = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kuro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.violet)).BeginInit();
@@ -59,6 +60,7 @@ namespace BillarcitoPro
             ((System.ComponentModel.ISupportInitialize)(this.bocchi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yui)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.taiga)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTittle
@@ -190,20 +192,32 @@ namespace BillarcitoPro
             this.yui.TabIndex = 19;
             this.yui.TabStop = false;
             // 
+            // taiga
+            // 
+            this.taiga.BackColor = System.Drawing.Color.Transparent;
+            this.taiga.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("taiga.BackgroundImage")));
+            this.taiga.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.taiga.Location = new System.Drawing.Point(292, 23);
+            this.taiga.Name = "taiga";
+            this.taiga.Size = new System.Drawing.Size(188, 210);
+            this.taiga.TabIndex = 20;
+            this.taiga.TabStop = false;
+            // 
             // FormMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
+            this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.taiga);
             this.Controls.Add(this.yui);
             this.Controls.Add(this.rem);
             this.Controls.Add(this.bocchi);
             this.Controls.Add(this.Asuna);
-            this.Controls.Add(this.panelTittle);
             this.Controls.Add(this.violet);
             this.Controls.Add(this.kuro);
             this.Controls.Add(this.aqua);
@@ -220,6 +234,7 @@ namespace BillarcitoPro
             ((System.ComponentModel.ISupportInitialize)(this.bocchi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yui)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.taiga)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -231,5 +246,6 @@ namespace BillarcitoPro
         private System.Windows.Forms.PictureBox bocchi;
         private System.Windows.Forms.PictureBox rem;
         private System.Windows.Forms.PictureBox yui;
+        private System.Windows.Forms.PictureBox taiga;
     }
 }
