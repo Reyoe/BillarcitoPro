@@ -22,6 +22,10 @@ namespace BillarcitoPro
 				kuro.Visible = false;
 				violet.Visible = false;
 				Asuna.Visible = false;
+				bocchi.Visible = false;
+				rem.Visible = false;
+				yui.Visible = false;
+				taiga.Visible = false;
 			}
 			if (index == 2)
 			{
@@ -29,6 +33,10 @@ namespace BillarcitoPro
 				kuro.Visible = true;
 				violet.Visible = false;
 				Asuna.Visible = false;
+				bocchi.Visible = false;
+				rem.Visible = false;
+				yui.Visible = false;
+				taiga.Visible = false;
 			}
 			if (index == 3)
 			{
@@ -37,6 +45,9 @@ namespace BillarcitoPro
 				violet.Visible = true;
 				Asuna.Visible= false;
 				bocchi.Visible = false;
+				rem.Visible = false;
+				yui.Visible = false;
+				taiga.Visible = false;
 			}
 			if (index == 4)
 			{
@@ -46,6 +57,8 @@ namespace BillarcitoPro
 				Asuna.Visible = true;
 				bocchi.Visible = false;
 				rem.Visible = false;
+				yui.Visible = false;
+				taiga.Visible = false;
 			}
 			if (index == 5)
 			{
@@ -55,6 +68,8 @@ namespace BillarcitoPro
 				Asuna.Visible = false;
 				bocchi.Visible = true;
 				rem.Visible = false;
+				yui.Visible = false;
+				taiga.Visible = false;
 			}
 			if (index == 6)
 			{
@@ -64,6 +79,30 @@ namespace BillarcitoPro
 				Asuna.Visible = false;
 				bocchi.Visible = false;
 				rem.Visible = true;
+				yui.Visible = false;
+				taiga.Visible = false;
+			}
+			if (index == 7)
+			{
+				aqua.Visible = false;
+				kuro.Visible = false;
+				violet.Visible = false;
+				Asuna.Visible = false;
+				bocchi.Visible = false;
+				rem.Visible = false;
+				yui.Visible = true;
+				taiga.Visible = false;
+			}
+			if (index == 8)
+			{
+				aqua.Visible = false;
+				kuro.Visible = false;
+				violet.Visible = false;
+				Asuna.Visible = false;
+				bocchi.Visible = false;
+				rem.Visible = false;
+				yui.Visible = false;
+				taiga.Visible = true;
 			}
 		}
 		void ButtonAcceptClick(object sender, EventArgs e)
