@@ -60,6 +60,7 @@ namespace BillarcitoPro
             // 
             // labelTittle
             // 
+            this.labelTittle.BackColor = System.Drawing.Color.Transparent;
             this.labelTittle.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTittle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelTittle.Location = new System.Drawing.Point(87, 28);
@@ -71,11 +72,12 @@ namespace BillarcitoPro
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(12, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(402, 59);
+            this.label1.Size = new System.Drawing.Size(326, 59);
             this.label1.TabIndex = 12;
             this.label1.Text = "Una mesa que está en juego terminó su tiempo.\r\nSe recomienda ir a la opción \"Mesa" +
     "s\" y  cobrar\r\nel tiempo de juego.\r\n";
@@ -83,7 +85,7 @@ namespace BillarcitoPro
             // 
             // buttonAccept
             // 
-            this.buttonAccept.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.buttonAccept.BackColor = System.Drawing.Color.Gray;
             this.buttonAccept.FlatAppearance.BorderSize = 0;
             this.buttonAccept.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.buttonAccept.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -103,9 +105,9 @@ namespace BillarcitoPro
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(248, -12);
+            this.pictureBox1.Location = new System.Drawing.Point(276, -12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(276, 273);
+            this.pictureBox1.Size = new System.Drawing.Size(248, 273);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -116,11 +118,11 @@ namespace BillarcitoPro
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(483, 236);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.buttonAccept);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.labelTittle);
             this.Controls.Add(this.panelTittle);
+            this.Controls.Add(this.buttonAccept);
+            this.Controls.Add(this.labelTittle);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMessage";
             this.Opacity = 0.85D;
