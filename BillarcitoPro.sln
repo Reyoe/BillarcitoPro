@@ -1,8 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 5.1
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillarcitoPro", "BillarcitoPro\BillarcitoPro.csproj", "{12F3DD6C-AA4B-4BB4-BD21-0AE7ECD32AC0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BillarcitoProSetup", "BillarcitoProSetup\BillarcitoProSetup.vdproj", "{03398471-D248-4076-9540-C61BB702BFE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,5 +17,13 @@ Global
 		{12F3DD6C-AA4B-4BB4-BD21-0AE7ECD32AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12F3DD6C-AA4B-4BB4-BD21-0AE7ECD32AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F3DD6C-AA4B-4BB4-BD21-0AE7ECD32AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03398471-D248-4076-9540-C61BB702BFE3}.Debug|Any CPU.ActiveCfg = Debug
+		{03398471-D248-4076-9540-C61BB702BFE3}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D0A34F-9CDD-448C-9B88-55C2E295A112}
 	EndGlobalSection
 EndGlobal
